@@ -1,0 +1,228 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.border {
+  height: 553px;
+  width: 459px;
+  border: transparent;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+}
+
+.line {
+  position: absolute;
+}
+
+.rotate {
+  transform: rotate(-30.6deg);
+}
+
+.transition {
+  transition: all 3s ease-in-out;
+}
+
+.line1 {width: 48.39px; height: 3.62px; left: 163.51px; top: 99.13px; background: linear-gradient(93.38deg, #647894 62.03%, rgba(100, 120, 148, 0) 102.58%); border-radius: 50px;}
+.line2 {width: 39.15px; height: 4.34px; left: 377.35px; top: 150.45px; background: linear-gradient(89.52deg, #446E6B 11.59%, rgba(77, 77, 77, 0) 120.35%); border-radius: 50px;}
+.line3 {width: 63.59px; height: 3.62px; left: 134.11px; top: 120.83px; background: linear-gradient(89.88deg, rgba(88, 116, 136, 0) 2.91%, #587488 50.88%, rgba(77, 77, 77, 0) 97.83%); border-radius: 50px;}
+.line4 {width: 191.73px; height: 3.62px; left: 81.95px; top: 117.82px; background: linear-gradient(90.03deg, #4B7B7B 29.34%, #406D98 31.91%, #435B83 57.54%, #464368 60.62%); border-radius: 50px;}
+.line5 {width: 191.73px; height: 4.21px; left: 126.43px; top: 95.57px; background: linear-gradient(89.69deg, #2C4E7F 1.26%, #53759B 33.06%, #41648E 57.17%); border-radius: 50px;}
+.line6 {width: 60.25px; height: 4.21px; left: 141.47px; top: 130.05px; background: #325483; border-radius: 50px 50px 0px 0px;}
+.line7 {width: 79.58px; height: 4.21px; left: 189.47px; top: 96.08px; background: #325483; border-radius: 0px 50px 50px 0px;}
+.line8 {width: 86.47px; height: 4.21px; left: 131.98px; top: 132.35px; background: linear-gradient(90.12deg, rgba(47, 87, 135, 0) 3.35%, #2F5787 13.21%, #2F5787 83.66%, rgba(47, 87, 135, 0) 97.95%); border-radius: 50px 50px 0px 50px;}
+.line9 {width: 116.33px; height: 4.21px; left: 223.88px; top: 135.69px; background: linear-gradient(90.19deg, #426867 75.66%, rgba(77, 77, 77, 0) 98.8%); border-radius: 50px 50px 0px 50px;}
+.line10 {width: 60.33px; height: 4.21px; left: 229.82px; top: 153.04px; background: #2E4648; border-radius: 50px 50px 0px 50px;}
+.line11 {width: 171.4px; height: 4.76px; left: 135.08px; top: 109.55px; background: linear-gradient(90.02deg, #366494 30.63%, #4E7882 47.79%, #CDB699 65.96%); border-radius: 3px 50px 50px 3px;}
+.line12 {width: 172.7px; height: 3.53px; left: 112.73px; top: 126.86px; background: linear-gradient(90.27deg, #4A787A 14.36%, #6A91AD 17.81%, #6990AC 53.28%, #35495C 59.68%); border-radius: 50px;}
+.line13 {width: 69.5px; height: 3.53px; left: 8px; top: 243.39px; background: linear-gradient(90.45deg, #667793 6.62%, rgba(102, 119, 147, 0) 119.73%); border-radius: 50px;}
+.line14 {width: 141.15px; height: 3.53px; left: 74.95px; top: 281.2px; background: linear-gradient(89.96deg, #948175 2.83%, rgba(113, 104, 98, 0.26) 52.33%, #707C9B 63.56%, rgba(112, 124, 155, 0.17) 100.82%); border-radius: 50px;}
+.line15 {width: 82.57px; height: 3.53px; left: 56.08px; top: 321.89px; background: linear-gradient(91.05deg, #9A4654 0.16%, rgba(154, 70, 84, 0) 109.38%); border-radius: 50px;}
+.line16 {width: 107.77px; height: 3.53px; left: -5.7px; top: 360.44px; background: linear-gradient(89.68deg, #9A4654 4.52%, rgba(154, 70, 84, 0.123521) 105%, rgba(154, 70, 84, 0) 119.15%); border-radius: 50px;}
+.line17 {width: 55.93px; height: 4.53px; left: 64.22px; top: 329px; background: linear-gradient(89.45deg, #C57170 7.99%, #D1A88B 87.15%, rgba(209, 168, 139, 0) 102.98%); border-radius: 50px;}
+.line18 {width: 112.26px; height: 4.53px; left: 85.24px; top: 329.58px; background: linear-gradient(90.07deg, #B54F4F 3.51%, #D1B39E 104.33%); border-radius: 50px;}
+.line19 {width: 86.74px; height: 4.53px; left: 158.04px; top: 298.95px; background: linear-gradient(89.33deg, #445E84 4.96%, #506D96 95.96%); border-radius: 50px;}
+.line20 {width: 198.22px; height: 4.53px; left: 97.18px; top: 309.35px; background: linear-gradient(90.19deg, rgba(51, 49, 93, 0) 2.4%, #33315D 12.73%, #33315D 85.54%, rgba(51, 49, 93, 0) 100.52%); border-radius: 50px;}
+.line21 {width: 139.93px; height: 4.53px; left: 34.29px; top: 369.35px; background: linear-gradient(89.75deg, #476F7E 47.9%, #AEB18F 72.24%, rgba(174, 177, 143, 0) 92.37%); border-radius: 50px;}
+.line22 {width: 139.93px; height: 4.53px; left: 90.29px; top: 340.51px; background: linear-gradient(90.39deg, #2E517A 3.99%, #53759A 97%); border-radius: 50px;}
+.line23 {width: 20.76px; height: 4.53px; left: 243.7px; top: 265.78px; background: #335788; border-radius: 50px;}
+.line24 {width: 104.77px; height: 4.53px; left: 273.95px; top: 223.14px; background: linear-gradient(89.68deg, #719174 4.51%, #B1B284 111.29%); border-radius: 50px;}
+.line25 {width: 95.67px; height: 4.53px; left: 282.41px; top: 225.18px; background: linear-gradient(91.73deg, #65876D 5.37%, #D3C687 98.37%); border-radius: 50px;}
+.line26 {width: 38.65px; height: 4.53px; left: 52.43px; top: 415.27px; background: linear-gradient(88.87deg, #9393A8 9.39%, rgba(147, 147, 168, 0) 124.75%); border-radius: 50px;}
+.line27 {width: 100.16px; height: 4.53px; left: 79.1px; top: 388.82px; background: linear-gradient(90.17deg, #6182A3 58.29%, #426C73 79.52%, rgba(97, 130, 163, 0) 96.89%); border-radius: 50px;}
+.line28 {width: 216.9px; height: 5.81px; left: 17.54px; top: 398.25px; background: #9D3A49; border-radius: 50px;}
+.line29 {width: 239.48px; height: 5.81px; left: 11.6px; top: 400.34px; background: linear-gradient(90.73deg, #D6B3A2 3.45%, #CBB988 99.02%); border-radius: 50px 50px 50px 0px;}
+.line30 {width: 145.86px; height: 5.81px; left: 265.83px; top: 280.99px; background: linear-gradient(90.17deg, #ADAA88 17.29%, #CDA277 30.64%); border-radius: 50px 50px 50px 0px;}
+.line31 {width: 116.67px; height: 4.53px; left: 123.93px; top: 387.1px; background: linear-gradient(90.12deg, #436B8B 28.18%, #8D9CA6 99.28%); border-radius: 50px;}
+.line32 {width: 208.15px; height: 4.53px; left: 38.48px; top: 406.13px; background: linear-gradient(89.56deg, rgba(157, 53, 69, 0) 2.77%, #9D3545 13.98%, #9D3545 88.37%, rgba(157, 53, 69, 0) 97.03%); border-radius: 50px;}
+.line33 {width: 227.39px; height: 4.53px; left: 39.12px; top: 395.04px; background: linear-gradient(89.91deg, rgba(218, 189, 164, 0) -0.77%, #DABDA4 8.5%, #DABDA4 79.33%, rgba(219, 183, 153, 0.1) 86.68%); border-radius: 50px;}
+.line34 {width: 58.43px; height: 4.53px; left: 159.04px; top: 400.46px; background: linear-gradient(93.36deg, #5A6D8B 9.33%, rgba(90, 109, 139, 0) 106.27%); border-radius: 50px;}
+.line35 {width: 39.06px; height: 4.53px; left: 173.41px; top: 402.6px; background: linear-gradient(86.91deg, rgba(164, 171, 139, 0) -18.96%, #A4AB8B 47.58%, rgba(164, 171, 139, 0) 105.06%); border-radius: 50px;}
+.line36 {width: 182.14px; height: 4.53px; left: 121.32px; top: 421.05px; background: linear-gradient(90.55deg, rgba(131, 156, 163, 0) 1.38%, #839CA3 34.22%, #839CA3 55.95%, rgba(131, 156, 163, 0) 96.88%); border-radius: 50px;}
+.line37 {width: 95.64px; height: 4.53px; left: 156.42px; top: 460.46px; background: linear-gradient(89.37deg, #70768E 4.93%, #69839A 59.41%, rgba(112, 118, 142, 0) 102.7%); border-radius: 50px;}
+.line38 {width: 95.64px; height: 4.53px; left: 331.42px; top: 386.17px; background: linear-gradient(90.39deg, rgba(68, 112, 154, 0) -0.55%, #44709A 60.17%); border-radius: 50px;}
+.line39 {width: 125.56px; height: 4.53px; left: 245.31px; top: 373.51px; background: linear-gradient(90.19deg, #51798E 2.99%, rgba(81, 121, 142, 0) 101.33%); border-radius: 50px;}
+.line40 {width: 69.5px; height: 3.77px; left: 59.94px; top: 286.32px; background: linear-gradient(91.47deg, #C06E65 29.14%, rgba(207, 207, 207, 0) 106.52%); border-radius: 50px;}
+.line41 {width: 77.92px; height: 3.77px; left: 70.47px; top: 281.37px; background: linear-gradient(91.47deg, #CC888A 3.97%, #AD3F45 100.12%); border-radius: 50px;}
+.line42 {width: 67.69px; height: 3.77px; left: 88.19px; top: 286.3px; background: #344676; border-radius: 50px 0px 50px 50px;}
+.line43 {width: 125.52px; height: 4.1px; left: 32.03px; top: 306.95px; background: linear-gradient(91.01deg, #CBAD8F 5.2%, rgba(203, 173, 143, 0) 45.54%, rgba(203, 173, 143, 0.803738) 62.63%, #CBAD8F 96.32%); border-radius: 50px 0px 50px 50px;}
+.line44 {width: 99.34px; height: 3.53px; left: 49.9px; top: 239.9px; background: linear-gradient(89.13deg, #53708A 56.07%, rgba(83, 112, 138, 0) 111.73%); border-radius: 50px;}
+.line45 {width: 109.54px; height: 3.93px; left: 16.28px; top: 286.54px; background: linear-gradient(92.16deg, rgba(101, 135, 160, 0.46) 1.68%, #32608C 19.32%, #356192 85.2%, rgba(101, 135, 160, 0) 101.28%); border-radius: 50px;}
+.line46 {width: 124.74px; height: 3.95px; left: 59.21px; top: 239.65px; background: linear-gradient(89.96deg, rgba(207, 200, 157, 0) -12.91%, #CFC89D 43.06%); border-radius: 50px;}
+.line47 {width: 77.56px; height: 3.95px; left: 91.54px; top: 247.74px; background: #B1495D; border-radius: 50px 0px 50px 50px;}
+.line48 {width: 205.05px; height: 3.53px; left: 25.44px; top: 240.13px; background: linear-gradient(90.41deg, rgba(68, 58, 101, 0) -0.03%, #443A65 9.51%, #443A65 90.13%, rgba(68, 58, 101, 0) 101.8%); border-radius: 50px;}
+.line49 {width: 115.8px; height: 3.53px; left: 242.55px; top: 133.4px; background: #55736E; border-radius: 0px 50px 50px 3px;}
+.line50 {width: 15.78px; height: 3.32px; left: 236.75px; top: 166.78px; background: #B2B589; border-radius: 0px 5px 0px 3px;}
+.line51 {width: 156.14px; height: 3.45px; left: 138.22px; top: 120.71px; background: #5C7FA2; border-radius: 1px 50px 50px 0px;}
+.line52 {width: 118.48px; height: 3.72px; left: 142.58px; top: 133.35px; background: linear-gradient(89.64deg, #43719B 2.9%, #3D6792 98.84%); border-radius: 0px 50px 50px 0px;}
+.line53 {width: 66.9px; height: 3.72px; left: 148.23px; top: 149.28px; background: #2E4371; border-radius: 0px 25px 25px 2px;}
+.line54 {width: 157.99px; height: 3.72px; left: 219.81px; top: 79.54px; background: linear-gradient(89.83deg, rgba(77, 77, 77, 0) 2.1%, rgba(143, 63, 76, 0.780952) 13.07%, #A13B4C 72.15%, rgba(77, 77, 77, 0) 83.12%); border-radius: 0px 50px 50px 2px;}
+.line55 {width: 25.59px; height: 3.72px; left: 170.15px; top: 173.79px; background: linear-gradient(92.9deg, #914D49 7.05%, #C0806A 94.79%); border-radius: 0px 50px 50px 15px;}
+.line56 {width: 30.86px; height: 3.72px; left: 173.13px; top: 174.64px; background: linear-gradient(90.02deg, #BF7663 9.25%, #CDB096 92.05%); border-radius: 0px 50px 0px 20px;}
+.line57 {width: 52.34px; height: 4.17px; left: 181.38px; top: 172.11px; background: linear-gradient(91.6deg, #B16B6E 36.77%, rgba(191, 156, 152, 0) 100.4%); border-radius: 0px 50px 50px 20px;}
+.line58 {width: 227.25px; height: 3.82px; left: 127.83px; top: 117.94px; background: linear-gradient(90.04deg, rgba(80, 132, 169, 0) 1.27%, #5084A9 8.37%, #5385A9 28.24%, rgba(107, 124, 151, 0) 38.79%, rgba(136, 113, 128, 0) 59.58%, #B34451 69.72%, #B34451 85.44%, rgba(179, 68, 81, 0) 98.62%); border-radius: 50px;}
+.line59 {width: 267.1px; height: 4.05px; left: 140.14px; top: 111.59px; background: linear-gradient(90.01deg, #497792 1.03%, #354A55 12.18%, #395B87 27.2%, rgba(56, 87, 117, 0) 30.86%, #355155 32.62%, #374845 43.29%, rgba(64, 74, 72, 0) 62.36%, #B64B4D 84.52%, rgba(77, 77, 77, 0) 99.98%); border-radius: 50px;}
+.line60 {width: 51.75px; height: 3.82px; left: 154.33px; top: 158.84px; background: #31638C; border-radius: 0px 0px 50px 50px;}
+.line61 {width: 92.91px; height: 4.23px; left: 154.49px; top: 150.56px; background: linear-gradient(90.2deg, #313948 68.41%, #8398A7 98.13%); border-radius: 0px 0px 50px 50px;}
+.line62 {width: 79.72px; height: 4.78px; left: 260.6px; top: 90.83px; background: #CFB99E; border-radius: 0px 0px 50px 50px;}
+.line63 {width: 8.48px; height: 3.82px; left: 205.86px; top: 140.9px; background: #5C88A3; border-radius: 5px 0px;}
+.line64 {width: 15.06px; height: 3.82px; left: 201.16px; top: 154.66px; background: #4F7299; border-radius: 5px 0px;}
+.line65 {width: 15.17px; height: 3.82px; left: 202.91px; top: 157.61px; background: #566D92; border-radius: 0px 0px 5px 1px;}
+.line66 {width: 10.25px; height: 5.12px; left: 205.34px; top: 161.5px; background: #334770; border-radius: 0px 0px 6px 5px;}
+.line67 {width: 14.19px; height: 3.82px; left: 211.98px; top: 152.36px; background: #42545C; border-radius: 5px 0px;}
+.line68 {width: 14.19px; height: 3.82px; left: 175.98px; top: 190.36px; background: linear-gradient(87.69deg, #486667 9.95%, rgba(77, 77, 77, 0) 80.6%); border-radius: 5px 0px;}
+.line69 {width: 23.31px; height: 3.82px; left: 169.34px; top: 196.03px; background: #D8C79A; border-radius: 5px 0px;}
+.line70 {width: 10.59px; height: 5.97px; left: 169.68px; top: 187.29px; background: linear-gradient(222.71deg, #D5C088 31.05%, rgba(213, 192, 136, 0) 214.88%); border-radius: 5px 0px;}
+.line71 {width: 15.45px; height: 4.48px; left: 215.06px; top: 221.64px; background: #406997; border-radius: 5px 5px 0px 0px;}
+.line72 {width: 19.86px; height: 4.48px; left: 214.75px; top: 224.51px; background: #303665; border-radius: 5px 5px 0px 0px;}
+.line73 {width: 6.07px; height: 3.14px; left: 212.38px; top: 184.27px; background: #9F3C3D; border-radius: 0px 5px;}
+.line74 {width: 10.98px; height: 3.14px; left: 242.03px; top: 186.07px; background: linear-gradient(94.89deg, #7B343F 14.52%, #CDACA6 148.19%); border-radius: 0px 5px;}
+.line75 {width: 16.25px; height: 3.99px; left: 225.88px; top: 185.66px; background: linear-gradient(84.44deg, #A43F47 11.94%, #CCB3A7 109.15%); border-radius: 0px 5px;}
+.line76 {width: 30.18px; height: 3.99px; left: 253.89px; top: 231.31px; background: #4D4D4D; border-radius: 0px 5px;}
+.line77 {width: 81.26px; height: 3.99px; left: 274.29px; top: 208.37px; background: linear-gradient(90.62deg, #C4A475 8.34%, rgba(196, 164, 117, 0) 100.65%); border-radius: 0px 5px 5px 5px;}
+.line78 {width: 10.53px; height: 3.82px; left: 227.24px; top: 182.14px; background: #9B393C; border-radius: 0px 5px;}
+.line79 {width: 18.12px; height: 4.02px; left: 215.45px; top: 182.68px; background: linear-gradient(90.62deg, #AF4249 9.84%, #D3ADA7 92.46%); border-radius: 0px 5px;}
+.line80 {width: 97.24px; height: 4.63px; left: 233.01px; top: 148.53px; background: linear-gradient(89.59deg, #D1BF8E 3.7%, rgba(209, 191, 142, 0) 113.45%); border-radius: 0px 50px 50px 5px;}
+.line81 {width: 53.08px; height: 3.32px; left: 251.67px; top: 155.63px; background: #335C64; border-radius: 0px 50px 0px 2px;}
+.line82 {width: 81.52px; height: 3.61px; left: 255.03px; top: 152.81px; background: linear-gradient(90.62deg, #2F4151 2.23%, #3A6E94 94.25%); border-radius: 0px 50px 0px 2px;}
+.line83 {width: 29.55px; height: 3.32px; left: 260.76px; top: 168.94px; background: linear-gradient(271deg, #3E6B8B 4.5%, #365F66 89.97%); border-radius: 0px 0px 50px 2px;}
+.line84 {width: 24.38px; height: 5.25px; left: 263.69px; top: 172.63px; background: #396474; border-radius: 0px 0px 50px 2px;}
+.line85 {width: 75.92px; height: 4.75px; left: 283.21px; top: 141.02px; background: linear-gradient(90.13deg, #325E88 5.7%, #38648F 34.57%, #698FB3 34.58%, #376288 96.6%); border-radius: 50px 50px 50px 0px;}
+.line86 {width: 55.47px; height: 3.83px; left: 282px; top: 153.3px; background: linear-gradient(89.64deg, #6C7F9A 14.29%, rgba(108, 127, 154, 0) 129.88%); border-radius: 50px 50px 50px 0px;}
+.line87 {width: 50.33px; height: 3.83px; left: 221.43px; top: 191.25px; background: #CBC389; border-radius: 50px 50px 50px 0px;}
+.line88 {width: 37.46px; height: 3.83px; left: 200.34px; top: 215.91px; background: #39606A; border-radius: 50px 0px;}
+.line89 {width: 30.17px; height: 3.83px; left: 285.85px; top: 212.19px; background: linear-gradient(91.35deg, #497570 59.09%, #2C355E 61.56%); border-radius: 50px 0px;}
+.line90 {width: 15.49px; height: 3.83px; left: 221.89px; top: 205.53px; background: #A6AB81; border-radius: 50px 0px;}
+.line91 {width: 56.33px; height: 3.83px; left: 230.01px; top: 188.24px; background: linear-gradient(93.3deg, #3D6B9B 7.64%, #3D6B9B 53.49%, #4D799D 53.5%, #537E9E 99.35%, rgba(77, 77, 77, 0) 99.36%); border-radius: 50px 0px;}
+.line92 {width: 168.73px; height: 3.83px; left: 221.08px; top: 164.37px; background: linear-gradient(89.77deg, #2E4474 19.48%, #5D88A4 19.49%, #315B82 85.24%, rgba(49, 91, 130, 0) 108.81%); border-radius: 50px 50px 50px 0px;}
+.line93 {width: 75.91px; height: 3.83px; left: 192.32px; top: 213.16px; background: linear-gradient(91.81deg, #B5B4B4 0.59%, #33406C 30.81%); border-radius: 50px 0px 0px 0px;}
+.line94 {width: 45.34px; height: 3.83px; left: 222.78px; top: 208.58px; background: #D0C286; border-radius: 0px 0px 0px 50px;}
+.line95 {width: 42.62px; height: 4.52px; left: 227.49px; top: 210.59px; background: #CABC82; border-radius: 0px 0px 0px 50px;}
+.line96 {width: 52.68px; height: 3.83px; left: 268.27px; top: 178.6px; background: #376086; border-radius: 0px 0px 0px 50px;}
+.line97 {width: 88.93px; height: 4.42px; left: 267.56px; top: 172.81px; background: linear-gradient(90.16deg, #376086 58.35%, rgba(55, 96, 134, 0) 115.6%); border-radius: 50px 0px 0px 50px;}
+.line98 {width: 88.93px; height: 3.83px; left: 269.71px; top: 175.33px; background: linear-gradient(89.22deg, #45628D 32.83%, #323867 32.84%, #323867 83.16%, rgba(50, 56, 103, 0) 101.7%); border-radius: 50px 0px 0px 50px;}
+.line99 {width: 19.04px; height: 3.83px; left: 276.64px; top: 196.22px; background: #95A0B4; border-radius: 1px 0px 0px 0px;}
+.line100 {width: 19.04px; height: 3.83px; left: 291.64px; top: 187.44px; background: linear-gradient(88.94deg, #3A3868 46.76%, rgba(77, 77, 77, 0) 92.8%); border-radius: 1px 0px 0px 0px;}
+.line101 {width: 115.56px; height: 3.83px; left: 271.83px; top: 174.73px; background: linear-gradient(90.14deg, #5A6E90 15.07%, #393D6F 15.08%, #446F6D 75.35%); border-radius: 50px 0px 0px 50px;}
+.line102 {width: 75.78px; height: 3.83px; left: 295.64px; top: 180.33px; background: linear-gradient(269.43deg, rgba(59, 83, 112, 0) 4.88%, #3B5370 38.39%, #3B5370 66.83%, rgba(59, 83, 112, 0) 96.8%); border-radius: 50px 0px 0px 50px;}
+.line103 {width: 75.78px; height: 3.83px; left: 337.64px; top: 150.96px; background: linear-gradient(269.66deg, #BEBA86 -5.55%, #7A937C 46.42%, #878B58 79.29%); border-radius: 50px 0px 0px 50px;}
+.line104 {width: 59.43px; height: 4.81px; left: 214.54px; top: 222.17px; background: #38335A; border-radius: 1px 0px 0px 0px;}
+.line105 {width: 61.45px; height: 3.83px; left: 215.65px; top: 225.26px; background: #3E4674; border-radius: 1px 0px 0px 0px;}
+.line106 {width: 91.03px; height: 5.13px; left: 215.23px; top: 220.81px; background: linear-gradient(270.42deg, #405C83 32.55%, #354272 32.56%); border-radius: 1px 0px 0px 0px;}
+.line107 {width: 62.5px; height: 4.31px; left: 218.7px; top: 230.62px; background: #64577A; border-radius: 1px 0px 0px 0px;}
+.line108 {width: 10.66px; height: 7.51px; left: 225.17px; top: 250.26px; background: #4D4D4D; border-radius: 1px 0px 0px 0px;}
+.line109 {width: 51.03px; height: 10.43px; left: 231.9px; top: 237.8px; background: #4D4D4D; border-radius: 1px 0px 0px 0px;}
+.line110 {width: 19.97px; height: 3.61px; left: 238.51px; top: 252.37px; background: #3A6791; border-radius: 1px 0px 0px 0px;}
+.line111 {width: 69.96px; height: 3.61px; left: 276.99px; top: 243.67px; background: #2D4E4C; border-radius: 1px 0px 0px 0px;}
+.line112 {width: 107.62px; height: 3.61px; left: 280.54px; top: 276.9px; background: #853A45; border-radius: 5px 0px 0px 0px;}
+.line113 {width: 17.31px; height: 4.47px; left: 288.48px; top: 256.85px; background: #3F6F6E; border-radius: 1px 0px 0px 0px;}
+.line114 {width: 17.31px; height: 4.37px; left: 289.51px; top: 260.84px; background: #356063; border-radius: 1px 0px 0px 0px;}
+.line115 {width: 28.7px; height: 4.37px; left: 278.1px; top: 277.58px; background: #AD8572; border-radius: 1px 0px 0px 0px;}
+.line116 {width: 28.7px; height: 4.37px; left: 279.1px; top: 281.41px; background: #9F675D; border-radius: 1px 0px 0px 0px;}
+.line117 {width: 28.7px; height: 4.37px; left: 280.1px; top: 285.24px; background: linear-gradient(85.17deg, #C9A686 -1.47%, rgba(201, 166, 134, 0) 109.7%); border-radius: 1px 0px 0px 0px;}
+.line118 {width: 28.7px; height: 4.37px; left: 281.09px; top: 289.07px; background: #744C3B; border-radius: 1px 0px 0px 0px;}
+.line119 {width: 160.55px; height: 4.23px; left: 230.28px; top: 219.61px; background: linear-gradient(91.03deg, #547F9E 3.73%, #345D83 99.9%); border-radius: 5px 0px 0px 5px;}
+.line120 {width: 52.21px; height: 4.62px; left: 273.29px; top: 205.69px; background: linear-gradient(270.36deg, #2F3F54 15.14%, #3F5A4E 45.14%, #39668F 82.11%); border-radius: 1px 0px 0px 50px;}
+.line121 {width: 47.6px; height: 4.62px; left: 274.83px; top: 210.84px; background: linear-gradient(88.98deg, #CFC08F 9.99%, #3C618D 99.22%); border-radius: 1px 0px 0px 50px;}
+.line122 {width: 43.06px; height: 4.62px; left: 276.15px; top: 213.56px; background: linear-gradient(89.95deg, #C7B57A 33.15%, #404D4A 33.16%, #3B3F2E 68.27%, #3A416D 72.12%); border-radius: 1px 0px 0px 50px;}
+.line123 {width: 97.09px; height: 4.31px; left: 127.26px; top: 275.16px; background: linear-gradient(89.54deg, #605C64 27.07%, rgba(77, 77, 77, 0) 48.7%, #51486F 78.02%); border-radius: 1px 0px 0px 0px;}
+.line124 {width: 64.79px; height: 4.31px; left: 157.54px; top: 274.6px; background: #4D4D4D; border-radius: 1px 0px 0px 0px;}
+.line125 {width: 64.79px; height: 4.31px; left: 157.54px; top: 274.6px; background: linear-gradient(89.78deg, #8D3C4A -0.65%, #CEA69D 88.5%, rgba(206, 166, 157, 0) 100.39%); border-radius: 1px 0px 0px 0px;}
+.line126 {width: 138.38px; height: 3.83px; left: 273.22px; top: 138.16px; background: linear-gradient(90.09deg, #37638C 71.61%, rgba(55, 99, 140, 0) 103.19%); border-radius: 50px 50px 50px 0px;}
+.line127 {width: 91.58px; height: 4.11px; left: 284.75px; top: 127.62px; background: linear-gradient(89.81deg, #976E85 4.28%, #58445E 97.06%); border-radius: 50px 50px 50px 0px;}
+.line128 {width: 51.75px; height: 4.12px; left: 242.41px; top: 164.96px; background: linear-gradient(91.04deg, #C2B993 7.66%, #6F8A7E 81.98%); border-radius: 0px 0px 50px 2px;}
+.line129 {width: 10.59px; height: 5.97px; left: 167.78px; top: 204.29px; background: #4D4D4D; border-radius: 5px 0px;}
+.line130 {width: 10.59px; height: 5.97px; left: 167.78px; top: 204.29px; background: #D8C79A; border-radius: 5px 0px;}
+.line131 {width: 13.38px; height: 4.16px; left: 159.63px; top: 226.13px; background: linear-gradient(82.55deg, #CFA77E -7.43%, #BDC190 98.36%); border-radius: 5px 0px;}
+.line132 {width: 30.03px; height: 3.82px; left: 172.86px; top: 200.42px; background: #46736E; border-radius: 5px 0px;}
+.line133 {width: 33.24px; height: 3.82px; left: 155.88px; top: 235.24px; background: linear-gradient(87.77deg, #528081 -5.03%, #34575C 105.54%); border-radius: 5px 0px;}
+.line134 {width: 58.44px; height: 3.82px; left: 150.86px; top: 234.79px; background: linear-gradient(89.91deg, #98A88C 7.07%, rgba(152, 168, 140, 0) 97.61%); border-radius: 5px 0px;}
+.line135 {width: 22.4px; height: 3.82px; left: 162.4px; top: 242.92px; background: #3C687C; border-radius: 5px 0px;}
+.line136 {width: 24.18px; height: 5.6px; left: 159.2px; top: 252.8px; background: #366A7F; border-radius: 5px 0px;}
+.line137 {width: 55.19px; height: 5.6px; left: 156.54px; top: 248.86px; background: linear-gradient(88.32deg, #366A7F 33.01%, rgba(54, 106, 127, 0) 128.2%); border-radius: 5px 0px;}
+.line138 {width: 55.19px; height: 5.6px; left: 169.54px; top: 282.73px; background: linear-gradient(89.03deg, rgba(192, 191, 185, 0) 4.37%, rgba(192, 191, 185, 0.22) 4.38%, #334E71 27.31%); border-radius: 5px 0px;}
+.line139 {width: 82.99px; height: 4.27px; left: 218.31px; top: 279.83px; background: linear-gradient(89.71deg, #323C6A 71.1%, #959496 95.63%); border-radius: 5px 0px;}
+.line140 {width: 164.35px; height: 4.81px; left: 230.37px; top: 252.56px; background: linear-gradient(90.29deg, #A9444B 67.44%, #C88D92 97.5%); border-radius: 5px 0px;}
+.line141 {width: 91.22px; height: 4.37px; left: 190.91px; top: 301.87px; background: linear-gradient(91.24deg, #C48B7B 5.59%, #BA5554 28.68%); border-radius: 5px 0px;}
+.line142 {width: 91.22px; height: 4.37px; left: 197.69px; top: 320.05px; background: #B8484F; border-radius: 5px 0px;}
+.line143 {width: 100.33px; height: 4.37px; left: 194.04px; top: 323.71px; background: #B74A4E; border-radius: 5px 0px;}
+.line144 {width: 48.49px; height: 4.37px; left: 299.7px; top: 249.98px; background: #BF5A55; border-radius: 5px 0px;}
+.line145 {width: 126.41px; height: 4.37px; left: 293.2px; top: 235.16px; background: linear-gradient(91.89deg, #823E40 4.86%, #873437 99.5%); border-radius: 5px 0px;}
+.line146 {width: 43.42px; height: 3.74px; left: 220.85px; top: 260.47px; background: #3A698A; border-radius: 5px 0px;}
+.line147 {width: 43.42px; height: 3.74px; left: 316.89px; top: 262.85px; background: linear-gradient(89.86deg, #4C719D 10.18%, #A8B0B0 68.51%); border-radius: 5px 0px;}
+.line148 {width: 73.05px; height: 3.74px; left: 210.81px; top: 308.27px; background: linear-gradient(91.22deg, #938F9C 12.71%, #A44552 12.72%, #CC888F 96.86%); border-radius: 5px 0px;}
+.line149 {width: 73.05px; height: 3.74px; left: 210.81px; top: 310.44px; background: #B8484F; border-radius: 5px 0px;}
+.line150 {width: 77.63px; height: 3.74px; left: 210.48px; top: 311.44px; background: #B04A5F; border-radius: 5px 0px;}
+.line151 {width: 78.71px; height: 3.74px; left: 210.41px; top: 313.33px; background: linear-gradient(91.36deg, #C64D58 29.56%, #828190 31.59%, #868490 41.73%, #A63D44 41.74%); border-radius: 5px 0px;}
+.line152 {width: 36.04px; height: 3.74px; left: 237.42px; top: 299.74px; background: linear-gradient(91.17deg, #938F9C 19.69%, #8D3B48 19.71%); border-radius: 5px 0px;}
+.line153 {width: 66.05px; height: 4.18px; left: 209.4px; top: 303.23px; background: linear-gradient(86.18deg, rgba(201, 152, 112, 0) 0.48%, #C99870 27.79%); border-radius: 5px 0px;}
+.line154 {width: 21.99px; height: 3.74px; left: 241.39px; top: 258.53px; background: #3A698A; border-radius: 5px 0px;}
+.line155 {width: 43.02px; height: 4.09px; left: 242.83px; top: 264.65px; background: linear-gradient(89.99deg, #B1B18E 8.48%, #708F81 104.35%); border-radius: 5px 0px;}
+.line156 {width: 8.26px; height: 3.72px; left: 223.37px; top: 259.65px; background: #3C618B; border-radius: 5px 0px;}
+.line157 {width: 10.62px; height: 3.72px; left: 217.2px; top: 251.25px; background: #2E4778; border-radius: 5px 0px;}
+.line158 {width: 10.62px; height: 3.72px; left: 216.2px; top: 248.46px; background: #365C8C; border-radius: 5px 0px;}
+.line159 {width: 6.6px; height: 3.72px; left: 217.49px; top: 245.43px; background: #3F6590; border-radius: 5px 0px;}
+.line160 {width: 9.98px; height: 3.55px; left: 223.21px; top: 263.42px; background: #5380A4; border-radius: 5px 0px;}
+.line161 {width: 11.22px; height: 3.55px; left: 223.12px; top: 264.99px; background: #5681A9; border-radius: 5px 0px;}
+.line162 {width: 13.6px; height: 3.55px; left: 223.23px; top: 272.44px; background: #345A87; border-radius: 5px 0px;}
+.line163 {width: 15.81px; height: 4.61px; left: 222.52px; top: 276.68px; background: #3A5B89; border-radius: 5px 0px;}
+.line164 {width: 18.55px; height: 4.61px; left: 222.87px; top: 283.02px; background: #3A6C99; border-radius: 5px 0px;}
+.line165 {width: 25.68px; height: 4.61px; left: 217.37px; top: 293.6px; background: linear-gradient(89.64deg, #445A8A 11.42%, #2F3F70 102.14%); border-radius: 5px 0px;}
+.line166 {width: 25.68px; height: 4.61px; left: 222.37px; top: 297.25px; background: #396189; border-radius: 5px 0px;}
+.line167 {width: 96.35px; height: 4.07px; left: 237.08px; top: 243.01px; background: linear-gradient(91.45deg, #3A5B8C 7.99%, #828E97 95.28%); border-radius: 5px 0px;}
+.line168 {width: 43.58px; height: 4.07px; left: 234.97px; top: 276.89px; background: linear-gradient(93.07deg, #97434D 15.11%, #CEA6A7 106.64%); border-radius: 5px 0px;}
+.line169 {width: 27.73px; height: 4.03px; left: 278.93px; top: 230.63px; background: #396561; border-radius: 5px 0px;}
+.line170 {width: 19.16px; height: 3.74px; left: 286.61px; top: 233.03px; background: #426564; border-radius: 5px 0px;}
+.line171 {width: 24.83px; height: 5.6px; left: 157.68px; top: 260.51px; background: #356275; border-radius: 5px 0px;}
+.line172 {width: 67.04px; height: 2.98px; left: 155.69px; top: 267.44px; background: linear-gradient(89.47deg, #D3CAA1 76.93%, #C1A27D 98.14%); border-radius: 5px 0px;}
+.line173 {width: 10.7px; height: 5.6px; left: 152.12px; top: 297.91px; background: #9F7567; border-radius: 5px 0px;}
+.line174 {width: 15.52px; height: 4.4px; left: 190.03px; top: 351.19px; background: #858B97; border-radius: 5px 0px;}
+.line175 {width: 22.03px; height: 5.06px; left: 213.65px; top: 340.2px; background: #8D848A; border-radius: 5px 0px;}
+.line176 {width: 60.49px; height: 9.66px; left: 225.71px; top: 321.2px; background: #B04A5F; border-radius: 5px 0px;}
+.line177 {width: 22.03px; height: 5.06px; left: 270.74px; top: 304.28px; background: #8E8791; border-radius: 5px 0px;}
+.line178 {width: 12.84px; height: 5.6px; left: 150.53px; top: 284.8px; background: #AC8E82; border-radius: 5px 0px;}
+.line179 {width: 174.71px; height: 4.14px; left: -1.94px; top: 287.16px; background: linear-gradient(89.94deg, #778C86 45.5%, #C0BA9C 96.93%); border-radius: 5px 0px 5px 5px;}
+.line180 {width: 38.2px; height: 3.82px; left: 162.28px; top: 212.33px; background: #35505A; border-radius: 5px 0px;}
+.line181 {width: 81.51px; height: 3.82px; left: 162.23px; top: 208.42px; background: linear-gradient(91.05deg, #2C4B6C 6.27%, #527C9E 95.76%); border-radius: 5px 50px 0px 0px;}
+.line182 {width: 49.62px; height: 3.82px; left: 165.48px; top: 211.59px; background: linear-gradient(90.62deg, #44746E 11.02%, #304249 59.18%, #386670 75.24%, #45768B 101.68%); border-radius: 5px 5px 5px 0px;}
+.line183 {width: 23.68px; height: 3.93px; left: 187.02px; top: 181.69px; background: linear-gradient(91.71deg, #964E4F 10.42%, #B66767 80.04%); border-radius: 0px 0px 5px 5px;}
+.line184 {width: 21.54px; height: 3.93px; left: 191.17px; top: 184.11px; background: #BF5F5B; border-radius: 0px 0px 5px 5px;}
+.line185 {width: 33.22px; height: 4.01px; left: 133.64px; top: 294.18px; background: linear-gradient(92.65deg, #9A7067 7.36%, #BB9C8B 90.48%); border-radius: 0px 0px 5px 5px;}
+.line186 {width: 26.13px; height: 4.01px; left: 138.18px; top: 298.04px; background: linear-gradient(90.67deg, #5C5B69 13.24%, #7B6260 85.97%); border-radius: 0px 0px 5px 5px;}
+.line187 {width: 18.07px; height: 3.84px; left: 203.79px; top: 173.36px; background: linear-gradient(88.77deg, #3A6464 18.95%, rgba(58, 100, 100, 0) 112.99%); border-radius: 5px 0px;}
+.line188 {width: 46.87px; height: 10.59px; left: 227.98px; top: 130.15px; background: linear-gradient(180deg, #31494E 6.77%, #3D6D6F 66.15%, rgba(61, 109, 111, 0) 90.1%); border-radius: 50px 50px 5px 0px;}
+.line189 {width: 69.93px; height: 3.32px; left: 268.15px; top: 98.59px; background: #433A5B; border-radius: 50px;}
+.line190 {width: 97px; height: 3.32px; left: 274.01px; top: 99.74px; background: linear-gradient(91.15deg, rgba(98, 110, 130, 0) 7.76%, #626E82 29.24%, #5C6472 82.67%, rgba(77, 77, 77, 0) 100.48%); border-radius: 50px;}
+.line191 {width: 239.14px; height: 4.21px; left: 159.76px; top: 141.39px; background: linear-gradient(89.78deg, #385452 12.49%, rgba(77, 77, 77, 0) 17.55%, rgba(70, 93, 92, 0) 27.67%, #3D6E6D 29.69%, #3D6E6D 49.93%, rgba(61, 110, 109, 0) 56.51%, rgba(61, 110, 109, 0) 75.22%, #C16E5C 86.35%); border-radius: 50px;}
+.line192 {width: 21.63px; height: 3.82px; left: 228.45px; top: 123.54px; background: #8198A4; border-radius: 5px 0px 10px;}
